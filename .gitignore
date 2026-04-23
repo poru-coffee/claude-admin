@@ -1,0 +1,12 @@
+# 機密データは絶対にcommitしない（2026-04-24 インシデント対応）
+data/
+*.env
+config/
+credentials.json
+token.json
+*.key
+.DS_Store
+# 誤操作で流入した残骸
+status,modified
+*.bak
+*.bak_*
